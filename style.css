@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+body{
+    background-color: #fafafa;
+    color: #000000;
+    font-size: 16px;
+    
+}
+/*header navbar start*/
+.navbar-brand{
+    font-size:35px;
+    font-weight: bold;
+    color: #363636;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.nav-item{
+    font-size: 18px;
+}
+/*header navbar end*/
+/*Second navbar start*/
+
+.nav-second .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+/*Second navbar start*/
+/*carousel start*/
+.carousel-item img{
+    width: 100%;
+   
+    object-fit: cover;
+}
+  h1, h2, h3, h4, h5, h6 {
+    font-family:"Times New Roman", serif;
+  }
+  h1{
+  font-size: 36px;
+    font-weight: 700;
+    color: #030303;
+    
+  }
+
+  a{
+    text-decoration: none;
+    color: #000000;
+  }
+  p{
+    font-size: 15px;
+    line-height: 1.5;
+    color: #000000;
+  }
+  h5{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+  }
+  .icon-link{
+    text-decoration: underline;
+    color: rgb(63, 46, 179);
+  }
+  .fw-bold{
+    text-decoration: underline;
+    font-size: 15px;
+    color: rgb(63, 46, 179);
+  }
+  .dropdown-item:hover{
+    background-color: #899db0;
+  }
+  .img-fluid{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .newsCard{
+    width: calc(100% / 4 - 20px);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  .c{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  
+   
+  }
+
+  .con{
+    text-decoration: underline;
+    color: rgb(63, 46, 179);
+  }
+.name{
+  color: rgb(63, 46, 179);
+}
+
+  /*footer start*/
+ 
+.NewsSection {
+  width: 100%;
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding: 100px 50px;
+}
+
+
+
+.footer {
+  width: 100%;
+  padding: 50px 50px 0px;
+  background-color: #00000054;
+  min-height: 200px;
+}
+
+.newsletter{
+  color: black;
+}
+.footer .box {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+}
+
+.footer .box .left {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 20px;
+}
+
+.footer .box .left .categories>p, 
+.footer .box .left .categories>a {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.footer .box .left .categories div {
+  margin-bottom: 15px;
+  width: max-content;
+}
+
+.footer .box .left .categories div a {
+  font-size: 20px;
+  color: #000000;
+  cursor: pointer;
+  padding: 0 10px;
+  border-left: 1px solid #fff0;
+  border-right: 1px solid #fff0;
+  transition: 0.3s;
+  text-decoration: none;    /* Remove underline */
+}
+
+.footer .box .left .categories div a:hover {
+  color: #2a2a2a;
+  border-left: 1px solid #2a2a2a;
+  border-right: 1px solid #2a2a2a;
+}
+
+.footer .contact {
+  margin-left: 10px;
+}
+
+.footer .contact p {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.footer .contact div {
+  font-size: 17px;
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+.footer .icon {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.footer .icon i {
+  font-size: 25px;
+  margin-right: 20px;
+  color: #aaa;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.footer .FollowUs{
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #000000;
+}
+.footer.fa-brands:hover{
+  transform: scale(1.2);
+}
+
+
+.footer .icon i:hover {
+  color: #fff;
+  transform: scale(1.2);
+}
+
+.footer .newsletter p {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.footer .newsletter .email {
+  display: flex;
+}
+
+.footer .newsletter .email input {
+  width: 400px;
+  padding: 12px 25px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.footer .newsletter .email button {
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: transparent;
+  border-color: #fff;
+  border-style: solid;
+  color: #010101;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer .newsletter .email button:hover {
+  color: #0a0a18;
+  background-color: #ffffff;
+}
+
+.footer .copyrights {
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+  letter-spacing: 1px;
+}
+
+@media (max-width:1024px) {
+  
+  .NewsSection .news .newsBox .newsCard .img {
+
+      height: 120px;
+  }
+
+  .NewsSection .news .newsBox .newsCard .text {
+      padding: 5px;
+  }
+
+  .NewsSection .news .newsBox .newsCard .text .title a p {
+      font-size: 14px;
+  }
+
+  .footer .box .left .categories>p {
+      font-size: 25px;
+  }
+
+  .footer .contact p {
+      font-size: 25px;
+  }
+
+  .footer .newsletter p {
+      font-size: 25px;
+  }
+
+  .footer .newsletter .email input {
+      width: 300px;
+  }
+
+  .footer .newsletter .email button {
+      padding: 10px 20px;
+      font-size: 14px;
+  }
+
+  .footer .box .left .categories div p {
+      font-size: 18px;
+  }
+
+  .footer .contact div {
+      font-size: 15px;
+  }
+}
+
+@media (max-width:768px) {
+  nav div.bar {
+      display: block;
+  }
+
+  nav ul {
+      opacity: 0;
+      position: absolute;
+      background-color: #0b0b11;
+      flex-direction: column;
+      right: 0px;
+      padding: 30px 30px 10px;
+      text-align: center;
+      pointer-events: none;
+      border-radius: 10px;
+  }
+
+  nav ul.activeMenu {
+      opacity: 1;
+      pointer-events: all;
+  }
+
+  nav ul li {
+      margin: 10px 0;
+  }
+
+  .NewsSection .news .newsBox .newsCard {
+      width: calc(100% / 3 - 20px);
+  }
+
+  .footer .box {
+      grid-template-columns: none;
+  }
+
+  .footer .box .right {
+      grid-row-start: 1;
+      margin-bottom: 40px;
+  }
+
+  .footer .newsletter .email input {
+      width: 400px;
+  }
+
+  .footer .box .left {
+      justify-content: space-between;
+  }
+}
+
+@media (max-width:600px) {
+  .logo {
+      font-size: 35px;
+  }
+
+  .NewsSection .news .newsBox .newsCard {
+      width: calc(100% / 2 - 20px);
+  }
+
+  .footer .newsletter .email input {
+      width: 300px;
+      font-size: 14px;
+  }
+
+  .footer .newsletter .email button {
+      padding: 8px 15px;
+      font-size: 14px;
+  }
+
+  .footer .newsletter p {
+      font-size: 22px;
+  }
+
+  .footer .box .left .categories>p {
+      font-size: 22px;
+  }
+
+  .footer .contact p {
+      font-size: 22px;
+  }
+
+  .footer .copyrights {
+      font-size: 14px;
+  }
+}
+
+@media (max-width:425px) {
+  nav div.bar {
+      right: 50px;
+  }
+
+  nav ul {
+      padding: 30px 10px 10px;
+  }
+
+  nav ul li {
+      margin: 5px 0px;
+  }
+
+  nav ul li a {
+      font-size: 14px;
+  }
+
+  .NewsSection {
+      padding: 50px 20px;
+  }
+
+  .NewsSection .news .newsBox .newsCard {
+      width: 100%;
+      display: grid;
+  }
+
+  .NewsSection .news>.title h2 {
+      font-size: 30px;
+  }
+
+  .NewsSection .news .newsBox .newsCard .img {
+      height: 100%;
+      min-height: 150px;
+  }
+
+  .NewsSection .news .newsBox .newsCard .text .title a p {
+      font-size: 16px;
+  }
+
+  .footer .newsletter .email {
+      display: block;
+  }
+
+  .footer .newsletter .email button {
+      margin-top: 15px;
+  }
+
+}
+@media (max-width:375px) {
+  .NewsSection .news .newsBox .newsCard {
+      width: 100%;
+  }
+
+  .footer .newsletter .email input {
+      width: 100%;
+  }
+
+  .footer .newsletter .email button {
+      width: 100%;
+  }
+}
+/*footer end*/
+
+
+

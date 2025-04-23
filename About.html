@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/blog/">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.0/dist/index.bundle.min.js" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>K-News</title>
+
+    <style>
+        .profile-card {
+            max-width: 350px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border: 4px solid #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .social-icons a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #f8f9fa;
+            color: #6c757d;
+            text-decoration: none;
+            margin: 0 5px;
+            transition: all 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            background-color: #007bff;
+            color: #fff;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <!--Header Navbar Start-->
+
+    <div class="container">
+        <header class=" lh-1 py-3">
+            <div class="row flex-nowrap justify-content-between align-items-center">
+                <nav class="navbar navbar-expand-lg bg-body-secondary fixed-top">
+                    <div class="container-fluid" style="margin-left: 5rem; margin-right: 6rem;">
+                        <a class="navbar-brand" href="index.html">K News </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="About.html">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="Contact.html">Contact Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="FAQ.html">FAQ</a>
+
+                                </li>
+                                <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Catagories
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">World</a></li>
+                              <li><a class="dropdown-item" href="#">Technology</a></li>
+                              <li><a class="dropdown-item" href="#">Sports</a></li>
+                              <li><a class="dropdown-item" href="#">Entertainment</a></li>
+                              <li><a class="dropdown-item" href="#">Politics</a></li>
+                              <li><a class="dropdown-item" href="#">Health</a></li>
+                              <li><a class="dropdown-item" href="#">Business</a></li>
+                              <li><a class="dropdown-item" href="#">Weather</a></li>
+                             
+                          </li>
+                        -->
+
+                            </ul>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-black" type="submit">Search</button>
+
+                            </form>
+                        </div>
+                    </div>
+
+                </nav>
+            </div>
+        </header>
+        <!--Header Navbar End-->
+        <!--Second Navbar Start-->
+
+        <div class="nav-second py-1 mb-3 border-bottom" style=" margin-top: 60px;">
+            <nav class="nav nav-underline justify-content-between">
+                <a class="nav-item nav-link link-body-emphasis active" href="#">World</a>
+                <a class="nav-item nav-link link-body-emphasis" href="#">Technology</a>
+                <a class="nav-item nav-link link-body-emphasis" href="#">Sports</a>
+                <a class="nav-item nav-link link-body-emphasis" href="#">Entertainment</a>
+                <a class="nav-item nav-link link-body-emphasis" href="#">Politics</a>
+                <a class="nav-item nav-link link-body-emphasis" href="#">Health</a>
+                <a class="nav-item nav-link link-body-emphasis" href="#">Business</a>
+                <a class="nav-item nav-link link-body-emphasis" href="#">Weather</a>
+            </nav>
+        </div>
+        <!--Second Navbar End-->
+
+
+        <!--About Us Section Start-->
+        <!--About Us start-->
+        <div class="container my-5" style="width: 100%; margin:10rem;">
+            <div class="row">
+                <div class="col-md-6 pt-3">
+                    <h1 class="h2 mb-4" style="font-weight: 600;">About Our <span style="color: #000000;">News Paper</span>
+                    </h1>
+                    <p class="text-Black" style="line-height: 2;">
+                        Welcome to our news website, where we bring you the latest and most important news from around
+                        the world. Our team of dedicated journalists and reporters work tirelessly to provide you with
+                        accurate and up-to-date information on a wide range of topics, including politics, business,
+                        technology, health, entertainment, and more. We believe that staying informed is essential in
+                        today's fast-paced world, and we strive to deliver news that matters to you. Thank you for
+                        choosing us as your trusted source of information.
+                        <br> <br> Our mission is to provide our readers with the most relevant and impactful news
+                        stories
+                        that shape our world. We are committed to journalistic integrity, transparency, and
+                        accountability,
+                    </p>
+
+                </div>
+                <div class="col-md-6 text-center">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="Src/about.jpg " class="w-100 rounded" alt="" height="200px ;" width="600px;"
+                                style="margin: 3rem;">
+                            <img src="Src/about.jpg " class="w-100 rounded" alt="" height="200px ;" width="600px;"
+                                style="margin-left:3rem">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Footer-->
+
+        <div class="footer" style="margin-top: 5rem;">
+            <div class="box">
+                <div class="left">
+                    <div class="categories">
+                        <p style="color:#000000;">Categories</p>
+                        <div><a href="#topNews">Leatest News</a></div>
+                        <div><a href="#topNews">World</a></div>
+                        <div><a href="#techNews">Technology</a></div>
+                        <div><a href="#worldNews">Sports</a></div>
+                        <div><a href="#businessNews">Entertainment</a></div>
+                        <div><a href="#politicsNews">Politics</a></div>
+                        <div><a href="#sportsNews">Health</a></div>
+                        <div><a href="#sportsNews">Business</a></div>
+                        <div><a href="#entertainmentNews">Weather</a></div>
+                    </div>
+                    <div class="contactUs">
+                        <div class="contact" style="color: #000000;">
+                            <p style="color: #000000;">Contact Us</p>
+                            <div>Phone No. - <span>015******21</span></div>
+                            <div>Email - <span>knews@gmail.com</span></div>
+                            <div>Address - <span>Bogura,Bangladesh</span></div>
+                        </div>
+                        <div class="FollowUs">
+                            <div class="icon"style="color: #000000;">
+                              <p style="color: #000000; font: size 36px;">Follow Us :</p>
+                                <i class="fa-brands"><a href="#"><img src="src/3721679-youtube_108064.svg" alt="Facebook" width="35px" height="35px"></a></i>
+                                </a></i>
+                                <i class="fa-brands"><a href="#"><img src="src/twitter_x_new_logo_x_icon_256077.svg" alt="Facebook" width="35px" height="35px"></a></i>
+                                </a></i>
+                                <i class="fa-brands"><a href="#"><img src="src/facebook_icon-icons.com_59205.svg" alt="Facebook" width="35px" height="35px"></a></i>
+                                </a></i>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="newsletter">
+                        <p style="color: #00000099;">Subscribe to Our Newsletter</p>
+                        <div class="email">
+                            <input type="email" placeholder="Enter Your Email Here">
+                            <button>Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyrights">
+                <p style="color: #000000;">&copy;
+                    <script>document.write(new Date().getFullYear());</script> TODAY'S NEWS | Kamrun. All rights
+                    reserved.
+                </p>
+            </div>
+        </div>
+
+
+        <!-- Bootstraps cdn link -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>

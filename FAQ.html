@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/blog/">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.0/dist/index.bundle.min.js" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>K-News</title>
+    <style>
+        .accordion {
+            background-color: #eee;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+        }
+
+        .accordion:hover {
+            background-color: #ccc;
+        }
+
+        .panel {
+            padding: 0 18px;
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+        }
+    </style>
+
+
+   
+</head>
+
+<body>
+    <!--Header Navbar Start-->
+    <header>
+        <div class="container">
+            <header class=" lh-1 py-3">
+                <div class="row flex-nowrap justify-content-between align-items-center">
+                    <nav class="navbar navbar-expand-lg bg-body-secondary fixed-top">
+                        <div class="container-fluid" style="margin-left: 5rem; margin-right: 6rem;">
+                            <a class="navbar-brand" href="index.html">K News </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="About.html">About Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="Contact.html">Contact Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="FAQ.html">FAQ</a>
+
+                                    </li>
+                                    <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Catagories
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">World</a></li>
+                              <li><a class="dropdown-item" href="#">Technology</a></li>
+                              <li><a class="dropdown-item" href="#">Sports</a></li>
+                              <li><a class="dropdown-item" href="#">Entertainment</a></li>
+                              <li><a class="dropdown-item" href="#">Politics</a></li>
+                              <li><a class="dropdown-item" href="#">Health</a></li>
+                              <li><a class="dropdown-item" href="#">Business</a></li>
+                              <li><a class="dropdown-item" href="#">Weather</a></li>
+                             
+                          </li>
+                        -->
+
+                                </ul>
+                                <form class="d-flex" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <button class="btn btn-outline-black" type="submit">Search</button>
+
+                                </form>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <!--Header Navbar End-->
+            <!--Second Navbar Start-->
+
+            <div class="nav-second py-1 mb-3 border-bottom" style=" margin-top: 60px;">
+                <nav class="nav nav-underline justify-content-between">
+                    <a class="nav-item nav-link link-body-emphasis active" href="#">World</a>
+                    <a class="nav-item nav-link link-body-emphasis" href="#">Technology</a>
+                    <a class="nav-item nav-link link-body-emphasis" href="#">Sports</a>
+                    <a class="nav-item nav-link link-body-emphasis" href="#">Entertainment</a>
+                    <a class="nav-item nav-link link-body-emphasis" href="#">Politics</a>
+                    <a class="nav-item nav-link link-body-emphasis" href="#">Health</a>
+                    <a class="nav-item nav-link link-body-emphasis" href="#">Business</a>
+                    <a class="nav-item nav-link link-body-emphasis" href="#">Weather</a>
+                </nav>
+            </div>
+            <!--Second Navbar End-->
+
+            <!--Question Section-->
+
+            <!--FAQ section-->
+
+
+
+            <div class="container mt-5 pt-5">
+                <h1 class="text-center"> Frequently Asked Questions</h1>
+                <p class="text-center"> Here are some Common Questions and Answers</p>
+            </div>
+            <button class="accordion">1. How user-friendly is the website’s interface for readers of different age
+                groups?</button>
+            <div class="panel">
+                <p>Most modern newspaper websites are designed with user-friendliness in mind. They often feature clean
+                    layouts, readable fonts, and clear navigation menus. Older readers benefit from adjustable font
+                    sizes and simple interfaces, while younger readers appreciate the fast, dynamic experience. However,
+                    some sites may still feel cluttered or ad-heavy, which can reduce usability.</p>
+            </div>
+
+            <button class="accordion">2. Does the website prioritize breaking news and important headlines on the
+                homepage effectively?</button>
+            <div class="panel">
+                <p>Yes, the homepage usually highlights breaking news with bold headlines, featured images, or pinned
+                    banners at the top. Many sites use a "live updates" section for ongoing stories. This helps readers
+                    quickly access the most important or recent news without needing to search</p>
+            </div>
+
+            <button class="accordion">3. How does the website handle multimedia content like videos, photo galleries, or
+                live coverage?
+            </button>
+            <div class="panel">
+                <p>Newspaper websites are increasingly multimedia-friendly. They often embed videos within articles,
+                    create interactive photo galleries, and host live news feeds. This enhances storytelling and keeps
+                    readers engaged. Some may also offer podcasts and audio summaries for convenience.
+
+                </p>
+            </div>
+            <button class="accordion">4. Are there interactive features such as comment sections, polls, or
+                subscription/customization options for readers?
+            </button>
+            <div class="panel">
+                <p>Yes, many newspaper websites include features like comment sections (although moderated), user polls,
+                    and the ability to subscribe to newsletters or notifications. Some even let users customize their
+                    news feed based on interests or preferred topics.
+
+                </p>
+            </div>
+            <button class="accordion">5. How well does the website perform on mobile devices and under slow internet conditions?
+            </button>
+            <div class="panel">
+                <p>Most reputable newspaper websites are mobile-responsive, offering a seamless experience across phones and tablets. They often use adaptive designs and compressed media for faster loading. However, performance can still vary depending on the user's internet speed and the site's optimization level.
+
+                </p>
+            </div>
+
+
+            <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+
+                for (i = 0; i < acc.length; i++) {
+                    acc[i].addEventListener("click", function () {
+                        this.classList.toggle("active");
+                        var panel = this.nextElementSibling;
+                        if (panel.style.maxHeight) {
+                            panel.style.maxHeight = null;
+                        } else {
+                            panel.style.maxHeight = panel.scrollHeight + "px";
+                        }
+                    });
+                }
+            </script>
+
+            <!--Footer-->
+
+            <div class="footer" style="margin-top: 5rem;">
+                <div class="box">
+                    <div class="left">
+                        <div class="categories">
+                            <p style="color:#000000;">Categories</p>
+                            <div><a href="#topNews">Leatest News</a></div>
+                                <div><a href="#topNews">World</a></div>
+                                <div><a href="#techNews">Technology</a></div>
+                                <div><a href="#worldNews">Sports</a></div>
+                                <div><a href="#businessNews">Entertainment</a></div>
+                                <div><a href="#politicsNews">Politics</a></div>
+                                <div><a href="#sportsNews">Health</a></div>
+                                <div><a href="#sportsNews">Business</a></div>
+                                <div><a href="#entertainmentNews">Weather</a></div>
+                        </div>
+                        <div class="contactUs">
+                            <div class="contact" style="color: #000000;">
+                                <p style="color: #000000;">Contact Us</p>
+                                <div>Phone No. - <span>015******21</span></div>
+                                <div>Email - <span>knews@gmail.com</span></div>
+                                <div>Address - <span>Bogura,Bangladesh</span></div>
+                            </div>
+                            <div class="FollowUs">
+                                <div class="icon"style="color: #000000;">
+                                  <p style="color: #000000; font: size 36px;">Follow Us :</p>
+                                    <i class="fa-brands"><a href="#"><img src="src/3721679-youtube_108064.svg" alt="Facebook" width="35px" height="35px"></a></i>
+                                    </a></i>
+                                    <i class="fa-brands"><a href="#"><img src="src/twitter_x_new_logo_x_icon_256077.svg" alt="Facebook" width="35px" height="35px"></a></i>
+                                    </a></i>
+                                    <i class="fa-brands"><a href="#"><img src="src/facebook_icon-icons.com_59205.svg" alt="Facebook" width="35px" height="35px"></a></i>
+                                    </a></i>
+                                    
+                                </div>
+                               </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="newsletter">
+                            <p style="color: #00000099;">Subscribe to Our Newsletter</p>
+                            <div class="email">
+                                <input type="email" placeholder="Enter Your Email Here">
+                                <button>Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyrights">
+                    <p style="color: #000000;">&copy;
+                        <script>document.write(new Date().getFullYear());</script> TODAY'S NEWS | Kamrun. All rights
+                        reserved.
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- Bootstraps cdn link -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+                crossorigin="anonymous"></script>
+
+</body>
+
+</html>
